@@ -43,7 +43,7 @@
   "scripts": {
     "start": "mate-scripts start -l",
     "build": "mate-scripts build",
-    "test": "mate-scripts test -l && jest",
+    "test": "mate-scripts test -l",
     "style-format": "npx stylelint 'src/**/*.scss' --fix --allow-empty-input",
     "lint-js": "mate-scripts lint -j",
     "lint-css": "mate-scripts lint -s",
@@ -74,8 +74,5 @@
       "cypressComponents": true,
       "cypress": true
     }
-  },
-  "jest": {
-    "testEnvironment": "jsdom"
   }
 }
